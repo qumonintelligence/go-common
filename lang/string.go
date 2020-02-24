@@ -20,6 +20,13 @@ func StringOf(unknown interface{}) string {
 	case string:
 		return value
 
+	case *string:
+		if value == nil {
+			return ""
+		}
+
+		return *value
+
 	default:
 		s := fmt.Sprintf("%v", unknown)
 		return s

@@ -2,3 +2,16 @@
 
 # go-common
 Common library for Golang
+
+# Common strings utils
+
+```
+var value *string
+
+lang.StringOf(value) // return ""
+
+x := "abc"
+value = &x
+
+lang.StringOf(value) // return "abc"
+```
