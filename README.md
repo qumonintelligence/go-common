@@ -27,3 +27,12 @@ lang.StringOf(value) // return "abc"
 var value []byte
 lang.StringOf(value) // return string(value)
 ```
+
+## lang.StringLastOf
+
+Return last X characters of a string
+
+```
+x := "abc"
+lang.StringLastOf(value, 2) // return "bc"
+```
