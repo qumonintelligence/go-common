@@ -27,6 +27,9 @@ func StringOf(unknown interface{}) string {
 
 		return *value
 
+	case []byte:
+		return string(value)
+
 	default:
 		s := fmt.Sprintf("%v", unknown)
 		return s
