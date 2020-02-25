@@ -35,3 +35,18 @@ func StringOf(unknown interface{}) string {
 		return s
 	}
 }
+
+// StringLastOf try to get last $count of characters from an unknown
+func StringLastOf(unknown interface{}, count int) string {
+	if count <= 0 {
+		return ""
+	}
+
+	_s := StringOf(unknown)
+	_l := len(_s) - count
+	if _l <= 0 {
+		return _s
+	}
+
+	return _s[_l:]
+}
