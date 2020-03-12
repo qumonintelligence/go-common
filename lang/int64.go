@@ -25,6 +25,10 @@ func Int64Of(unknown interface{}) (int64, error) {
 	case string:
 		return strconv.ParseInt(value, 10, 64)
 
+	case []byte:
+		s := string(value)
+		return strconv.ParseInt(s, 10, 64)
+
 	default:
 		s := fmt.Sprintf("%v", unknown)
 		return strconv.ParseInt(s, 10, 64)
