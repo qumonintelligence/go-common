@@ -21,7 +21,6 @@ func RequestURI(_url string) (string, error) {
 	{
 		avatarURL := parsed.RequestURI() 
 		return avatarURL, nil
-		//return avatarURL[1:len(avatarURL)], nil
 	}
 
 }

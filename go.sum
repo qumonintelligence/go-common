@@ -496,17 +496,6 @@ github.com/yosssi/gohtml v0.0.0-20190915184251-7ff6f235ecaf/go.mod h1:+ccdNT0xMY
 github.com/yudai/gojsondiff v1.0.0/go.mod h1:AY32+k2cwILAkW1fbgxQ5mUmMiZFgLIV+FBNExI05xg=
 github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82/go.mod h1:lgjkn3NuSvDfVJdfcVVdX+jpBxNmX4rDAzaS45IcYoM=
 github.com/yudai/pp v2.0.1+incompatible/go.mod h1:PuxR/8QJ7cyCkFp/aUDS+JY727OFEZkTdatxwunjIkc=
-gitlab.qumon.ai/chativo/go-lib v1.0.0/go.mod h1:lcT1N4lG1udK66Ln6e4p/PLI0sAzaCpPr4dOIzPOn3k=
-gitlab.qumon.ai/chativo/go-model/v2 v2.0.0-20200706015641-8693b4bcbb18 h1:JCiPJV16ugotbvLl2Ojx9AeDOle52VCKSJy6Z/NOciY=
-gitlab.qumon.ai/chativo/go-model/v2 v2.0.0-20200706015641-8693b4bcbb18/go.mod h1:TEJvrIFYYlwnRMKxXQEcggTFl9iDXYreUhbkDoB+QwE=
-gitlab.qumon.ai/infini/go-config/v2 v2.0.0-20200210034248-fd5bc7314c49/go.mod h1:9+iOGd81BxT2e8GLfaCSgjG7yoNL6fWus+i3LcQ0P+Y=
-gitlab.qumon.ai/infini/go-mgdb/v2 v2.0.0-20200210040300-8c291f8644e2/go.mod h1:ecPvpJTdPMDpku7hikSH6z/zmWI6sh8wSf/dlZruFXs=
-gitlab.qumon.ai/infini/go-mgdb/v2 v2.0.0-20200630044857-0224ef3ffbb3 h1:5LXr2dOCxfP+5I6Y+mN2z39H29JRiIQvm5654yo1AnY=
-gitlab.qumon.ai/infini/go-mgdb/v2 v2.0.0-20200630044857-0224ef3ffbb3/go.mod h1:+howu8fXmhYfe/Ugec9X+SJ/Sd+x63Tatv2aeElhrKk=
-gitlab.qumon.ai/infini/go-redis/v2 v2.0.0-20200612054416-2401277c4102 h1:swm+MpqP062VkPOjrD+b0PATVfF3HPXiWPoPiypEu6g=
-gitlab.qumon.ai/infini/go-redis/v2 v2.0.0-20200612054416-2401277c4102/go.mod h1:Ev6Sj8u/oyvEU3fJYosRdTunKVzaXz9+PcMqzKRhEZY=
-gitlab.qumon.ai/infini/go-rest/v2 v2.0.0-20200506095605-6cf702a4aa17/go.mod h1:Q/xypIi9nBA+46BdcQgO8U4yUc4xNAf1Ygw+Sz8w6Kg=
-gitlab.qumon.ai/infini/go-sentry/v2 v2.0.0-20200214055135-6f2c3fc8809a/go.mod h1:KyOcQpxjtCSm3XIrDHbzyEc3y2uy9vBPyEv16pOhubg=
 go.etcd.io/bbolt v1.3.2/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.mongodb.org/mongo-driver v1.0.3/go.mod h1:u7ryQJ+DOzQmeO7zB6MHyr8jkEQvC8vH7qLUO4lqsUM=
 go.mongodb.org/mongo-driver v1.1.1/go.mod h1:u7ryQJ+DOzQmeO7zB6MHyr8jkEQvC8vH7qLUO4lqsUM=
