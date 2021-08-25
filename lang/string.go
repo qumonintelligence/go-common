@@ -2,6 +2,8 @@ package lang
 
 import (
 	"fmt"
+
+	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
 // IsEmptyString true if given string is nil or empty
@@ -29,6 +31,9 @@ func StringOf(unknown interface{}) string {
 
 	case []byte:
 		return string(value)
+
+	case primitive.ObjectID:
+		return value.Hex()
 
 	default:
 		s := fmt.Sprintf("%v", unknown)
