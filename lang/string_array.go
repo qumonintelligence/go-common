@@ -23,3 +23,13 @@ func StringArrayOf(unknown interface{}) ([]string, error) {
 		return []string{}, fmt.Errorf("unsupported type %T", unknown)
 	}
 }
+
+func StringSliceContains(slices []string, value string) bool {
+	for _, v := range slices {
+		if value == v {
+			return true
+		}
+	}
+
+	return false
+}
